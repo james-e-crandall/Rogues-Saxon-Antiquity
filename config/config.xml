@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Civilizations>
+		<Row Domain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_SAXON" CivilizationName="LOC_CIVILIZATION_SAXON_NAME" CivilizationFullName="LOC_CIVILIZATION_SAXON_FULLNAME" CivilizationDescription="LOC_CIVILIZATION_SAXON_DESCRIPTION" CivilizationIcon="saxon.png"/>
+	</Civilizations>
+	<LeaderCivilizationBias>
+		<InsertOrIgnore CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_SAXON" LeaderDomain="StandardLeaders" LeaderType="LEADER_ISABELLA" Bias="2" ReasonType="LOC_UNLOCK_PLAY_AS_ISABELLA_SAXON_TOOLTIP" ChoiceType="LOC_CREATE_GAME_STRATEGIC_CHOICE" />
+		<InsertOrIgnore CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_SAXON" LeaderDomain="StandardLeaders" LeaderType="LEADER_CHARLEMAGNE" Bias="3" ReasonType="LOC_UNLOCK_PLAY_AS_CHARLEMAGNE_SAXON_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
+	</LeaderCivilizationBias>
+	<CivilizationItems>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_SAXON" Type="TRAIT_SAXON" Kind="KIND_TRAIT" Name="LOC_TRAIT_SAXON_NAME" Description="LOC_TRAIT_SAXON_DESCRIPTION"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_SAXON" Type="IMPROVEMENT_SACRED_GROVE" Kind="KIND_IMPROVEMENT" Name="LOC_IMPROVEMENT_SACRED_GROVE_NAME" Description="LOC_IMPROVEMENT_SACRED_GROVE_DESCRIPTION" Icon="IMPROVEMENT_SACRED_GROVE"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_SAXON" Type="BUILDING_MOOT_HALL" Kind="KIND_BUILDING" Name="LOC_BUILDING_MOOT_HALL_NAME" Description="LOC_BUILDING_MOOT_HALL_DESCRIPTION" Icon="BUILDING_MOOT_HALL"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_SAXON" Type="UNIT_CEORL" Kind="KIND_UNIT" Name="LOC_UNIT_CEORL_NAME" Description="LOC_UNIT_CEORL_DESCRIPTION" Icon="UNIT_CEORL"/>
+	</CivilizationItems>
+	<CivilizationTags>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_SAXON" TagType="TAG_TRAIT_CULTURAL"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_SAXON" TagType="TAG_TRAIT_MILITARISTIC"/>
+	</CivilizationTags>
+	<LeaderUnlocks>
+	</LeaderUnlocks>
+	<CivilizationUnlocks>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_SAXON" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_NORMAN" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_NORMAN_NAME" Description="LOC_CIVILIZATION_NORMAN_DESCRIPTION" Icon="ICON_CIVILIZATION_NORMAN"/>
+	</CivilizationUnlocks>
+</Database>

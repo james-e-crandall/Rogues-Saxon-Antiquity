@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+  <EnglishText>
+    <!--Civilization Names-->
+    <Row Tag="LOC_CIVILIZATION_SAXON_NAME">
+      <Text>Saxons</Text>
+    </Row>
+    <!--Civilization Full Names-->
+    <Row Tag="LOC_CIVILIZATION_SAXON_FULLNAME">
+      <Text>The Saxons</Text>
+    </Row>
+    <!--Civilization Adjectives-->
+    <Row Tag="LOC_CIVILIZATION_SAXON_ADJECTIVE">
+      <Text>Anglo-Saxon</Text>
+    </Row>
+  </EnglishText>
+
+</Database>

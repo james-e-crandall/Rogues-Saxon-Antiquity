@@ -1,0 +1,99 @@
+<Database>
+	<Types>
+		<!-- Major Civs -->
+		<Row Type="TRAIT_SAXON_ABILITY" Kind="KIND_TRAIT"/>
+	</Types>
+	<Kinds>
+		<InsertOrIgnore KIND="KIND_TRAIT"/>
+	</Kinds>
+	<Civilizations>
+		<!-- Full Civs -->
+		<Row CivilizationType="CIVILIZATION_SAXON" Name="LOC_CIVILIZATION_SAXON_NAME" FullName="LOC_CIVILIZATION_SAXON_FULLNAME" Description="LOC_CIVILIZATION_SAXON_DESCRIPTION" Adjective="LOC_CIVILIZATION_SAXON_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" UniqueCultureProgressionTree="TREE_CIVICS_AQ_SAXON" CapitalName="LOC_CITY_NAME_SAXON1" RandomCityNameDepth="10"/>
+	</Civilizations>
+	<Traits>
+		<!--Civ Traits-->
+		<Row TraitType="TRAIT_SAXON_ABILITY" Name="LOC_TRAIT_SAXON_ABILITY_NAME" Description="LOC_TRAIT_SAXON_ABILITY_DESCRIPTION" InternalOnly="true"/>
+	</Traits>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_SAXON_ABILITY" ModifierId="MOD_REVEAL_CIV_CULTURE_TREE_SAXON"/>
+		<Row TraitType="TRAIT_SAXON_ABILITY" ModifierId="MOD_CIV_DOUBLE_CEORLS"/>
+	</TraitModifiers>
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_SAXON" TraitType="TRAIT_ANTIQUITY_CIV"/>
+
+		<Row CivilizationType="CIVILIZATION_SAXON" TraitType="TRAIT_SAXON"/>
+
+		<Row CivilizationType="CIVILIZATION_SAXON" TraitType="TRAIT_SAXON_ABILITY"/>
+		<Row CivilizationType="CIVILIZATION_SAXON" TraitType="TRAIT_ATTRIBUTE_CULTURAL"/>
+		<Row CivilizationType="CIVILIZATION_SAXON" TraitType="TRAIT_ATTRIBUTE_MILITARISTIC"/>
+	</CivilizationTraits>
+	<RequirementSets>
+		<Row RequirementSetId="REQSET_PLAYER_IS_SAXON" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row RequirementSetId="REQSET_PLAYER_IS_SAXON" RequirementId="REQ_PLAYER_HAS_TRAIT_SAXON"/>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row RequirementId="REQ_PLAYER_HAS_TRAIT_SAXON" RequirementType="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT"/>
+	</Requirements>
+	<RequirementArguments>
+		<Row RequirementId="REQ_PLAYER_HAS_TRAIT_SAXON" Name="TraitType" Value="TRAIT_SAXON"/>
+	</RequirementArguments>
+	<LeaderCivPriorities>
+		<!--This is the table used for AI, the UI uses LeaderCivilizationBias in config.xml-->
+		<Row Leader="LEADER_CHARLEMAGNE" Civilization="CIVILIZATION_SAXON" Priority="3"/>
+		<Row Leader="LEADER_ISABELLA" Civilization="CIVILIZATION_SAXON" Priority="2"/>
+	</LeaderCivPriorities>
+	<CityNames>
+		<!--SUMER-->
+		<Row CivilizationType="CIVILIZATION_SAXON" CityName="LOC_CITY_NAME_SAXON1"/>
+		<Row CivilizationType="CIVILIZATION_SAXON" CityName="LOC_CITY_NAME_SAXON2"/>
+		<Row CivilizationType="CIVILIZATION_SAXON" CityName="LOC_CITY_NAME_SAXON3"/>
+		<Row CivilizationType="CIVILIZATION_SAXON" CityName="LOC_CITY_NAME_SAXON4"/>
+		<Row CivilizationType="CIVILIZATION_SAXON" CityName="LOC_CITY_NAME_SAXON5"/>
+		<Row CivilizationType="CIVILIZATION_SAXON" CityName="LOC_CITY_NAME_SAXON6"/>
+		<Row CivilizationType="CIVILIZATION_SAXON" CityName="LOC_CITY_NAME_SAXON7"/>
+		<Row CivilizationType="CIVILIZATION_SAXON" CityName="LOC_CITY_NAME_SAXON8"/>
+		<Row CivilizationType="CIVILIZATION_SAXON" CityName="LOC_CITY_NAME_SAXON9"/>
+		<Row CivilizationType="CIVILIZATION_SAXON" CityName="LOC_CITY_NAME_SAXON10"/>
+		<Row CivilizationType="CIVILIZATION_SAXON" CityName="LOC_CITY_NAME_SAXON11"/>
+		<Row CivilizationType="CIVILIZATION_SAXON" CityName="LOC_CITY_NAME_SAXON12"/>
+		<Row CivilizationType="CIVILIZATION_SAXON" CityName="LOC_CITY_NAME_SAXON13"/>
+		<Row CivilizationType="CIVILIZATION_SAXON" CityName="LOC_CITY_NAME_SAXON14"/>
+		<Row CivilizationType="CIVILIZATION_SAXON" CityName="LOC_CITY_NAME_SAXON15"/>
+		<Row CivilizationType="CIVILIZATION_SAXON" CityName="LOC_CITY_NAME_SAXON16"/>
+		<Row CivilizationType="CIVILIZATION_SAXON" CityName="LOC_CITY_NAME_SAXON17"/>
+		<Row CivilizationType="CIVILIZATION_SAXON" CityName="LOC_CITY_NAME_SAXON18"/>
+		<Row CivilizationType="CIVILIZATION_SAXON" CityName="LOC_CITY_NAME_SAXON19"/>
+		<Row CivilizationType="CIVILIZATION_SAXON" CityName="LOC_CITY_NAME_SAXON20"/>
+		<Row CivilizationType="CIVILIZATION_SAXON" CityName="LOC_CITY_NAME_SAXON21"/>
+		<Row CivilizationType="CIVILIZATION_SAXON" CityName="LOC_CITY_NAME_SAXON22"/>
+		<Row CivilizationType="CIVILIZATION_SAXON" CityName="LOC_CITY_NAME_SAXON23"/>
+		<Row CivilizationType="CIVILIZATION_SAXON" CityName="LOC_CITY_NAME_SAXON24"/>
+		<Row CivilizationType="CIVILIZATION_SAXON" CityName="LOC_CITY_NAME_SAXON25"/>
+		<Row CivilizationType="CIVILIZATION_SAXON" CityName="LOC_CITY_NAME_SAXON26"/>
+		<Row CivilizationType="CIVILIZATION_SAXON" CityName="LOC_CITY_NAME_SAXON27"/>
+		<Row CivilizationType="CIVILIZATION_SAXON" CityName="LOC_CITY_NAME_SAXON28"/>
+		<Row CivilizationType="CIVILIZATION_SAXON" CityName="LOC_CITY_NAME_SAXON29"/>
+		<Row CivilizationType="CIVILIZATION_SAXON" CityName="LOC_CITY_NAME_SAXON30"/>
+	</CityNames>
+	
+	<StartBiasResources>
+		<Row CivilizationType="CIVILIZATION_SAXON" ResourceType="RESOURCE_IRON" Score="20"/>
+	</StartBiasResources>
+	<StartBiasFeatureClasses>
+		<Row CivilizationType="CIVILIZATION_SAXON" FeatureClassType="FEATURE_CLASS_VEGETATED" Score="35"/>
+	</StartBiasFeatureClasses>
+	<VisArt_CivilizationBuildingCultures>
+		<Row CivilizationType="CIVILIZATION_SAXON" BuildingCulture="BUILDING_CULTURE_NAM"/>
+		<Row CivilizationType="CIVILIZATION_SAXON" BuildingCulture="ANT_STONE"/>
+		<Row CivilizationType="CIVILIZATION_SAXON" BuildingCulture="EXP_STONE"/>
+		<Row CivilizationType="CIVILIZATION_SAXON" BuildingCulture="MOD_STONE"/>
+	</VisArt_CivilizationBuildingCultures>
+	<VisArt_CivilizationUnitCultures>
+		<Row CivilizationType="CIVILIZATION_SAXON" UnitCulture="MED"/>
+	</VisArt_CivilizationUnitCultures>
+
+	<EndGameMovies>
+	</EndGameMovies>
+</Database>

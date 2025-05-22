@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="rogues-civ-saxon" version="1" xmlns="ModInfo">
+	<Properties>
+		<Name>Rogue's Civs - Saxons (Antiquity)</Name>
+		<Description>Adds the Saxons as a playable civilization in the Antiquity Age. AI Generated Content Disclosure: The icons for the Moot Hall and Sacred Grove are in part AI generated.</Description>
+		<Authors>RogueAustralian</Authors>
+		<Version>0.1</Version>
+		<AffectsSavedGames>1</AffectsSavedGames>
+
+	</Properties>
+	<Dependencies>
+		<Mod id="base-standard" title="LOC_MODULE_BASE_STANDARD_NAME"/>
+	</Dependencies>
+	<References>
+		<Mod id="rogues-civ-england" title="LOC_MODULE_ENGLAND_NAME"/>
+		<Mod id="rogues-civ-england" title="LOC_MODULE_ENGLAND_DESCRIPTION"/>
+	</References>
+	<ActionCriteria>
+		<Criteria id="antiquity-age-current">
+			<AgeInUse>AGE_ANTIQUITY</AgeInUse>
+		</Criteria>
+		<Criteria id="exploration-age-current">
+			<AgeInUse>AGE_EXPLORATION</AgeInUse>
+		</Criteria>
+		<Criteria id="modern-age-current">
+			<AgeInUse>AGE_MODERN</AgeInUse>
+		</Criteria>
+		<Criteria id="antiquity-age-persist" any="true">
+			<AgeInUse>AGE_ANTIQUITY</AgeInUse>
+			<AgeInUse>AGE_EXPLORATION</AgeInUse>
+			<AgeInUse>AGE_MODERN</AgeInUse>
+		</Criteria>
+		<Criteria id="exploration-age-persist" any="true">
+			<AgeInUse>AGE_EXPLORATION</AgeInUse>
+			<AgeInUse>AGE_MODERN</AgeInUse>
+		</Criteria>
+		<Criteria id="england-current">
+			<ModInUse>rogues-civ-england</ModInUse>
+		</Criteria>
+		<Criteria id="great-britain-current">
+			<ModInUse>great-britain</ModInUse>
+		</Criteria>
+		
+		<Criteria id="antiquity-age-ada">
+			<ModInUse>ada-lovelace</ModInUse>
+			<AgeInUse>AGE_ANTIQUITY</AgeInUse>
+		</Criteria>
+		<Criteria id="always">
+			<AlwaysMet></AlwaysMet>
+		</Criteria>
+	</ActionCriteria>
+	<ActionGroups>
+		<ActionGroup id="rogues-civ-saxon" scope="game" criteria="always">
+			<Actions>
+				<ImportFiles>
+                    <Item>assets/icon/saxon.png</Item>
+                    <Item>assets/icon/sacred_grove.png</Item>
+                    <Item>assets/icon/moot_hall.png</Item>
+                    <Item>assets/icon/cult_saxon.png</Item>
+                    <Item>assets/icon/civ_sym_saxon</Item>
+                </ImportFiles>
+				<UpdateIcons>
+					<Item>icons/icons.xml</Item>
+				</UpdateIcons>
+				<UpdateDatabase>
+					<Item>data/civilizations-legacy.xml</Item>
+					<Item>data/named-places.xml</Item>
+					<Item>data/progression-trees-culture-unique-gameeffects.xml</Item>	
+					<Item>data/progression-trees-culture-unique.xml</Item>				
+					<Item>data/traditions-gameeffects.xml</Item>						
+					<Item>data/traditions.xml</Item>								
+					<Item>data/unlocks-base-standard.xml</Item>
+				</UpdateDatabase>
+				<UpdateText>
+					<Item>text/en_us/CultureText.xml</Item>
+					<Item>text/en_us/CivilopediaText.xml</Item>			<!-- will return to this -->
+					<Item>text/en_us/LoadingText.xml</Item>
+					<Item>text/en_us/NamedPlacesText.xml</Item>
+					<Item>text/en_us/UnlockText.xml</Item>				<!-- will return to this -->
+					<Item>text/en_us/CivilizationLegacyText.xml</Item>
+					<Item>text/en_us/AttributesText.xml</Item>
+				</UpdateText>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="age-antiquity-main-saxon" scope="game" criteria="antiquity-age-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/unlocks-antiquity.xml</Item>
+					
+					<Item>data/citizen-names.xml</Item>
+
+					<Item>data/civilizations-antiquity.xml</Item>
+					<Item>data/civilizations-gameeffects.xml</Item>
+					<Item>data/constructibles-no-persist.xml</Item>
+					<Item>data/loading-info-antiquity.xml</Item>
+					<Item>data/progression-trees-tech.xml</Item> <!-- We'll get back to this -->
+					<Item>data/units.xml</Item>
+					<Item>data/units-gameeffects.xml</Item>
+					<Item>data/religion.xml</Item>
+					<Item>data/religion-gameeffects.xml</Item>
+				</UpdateDatabase>
+				<UpdateText>
+					<Item>text/en_us/CitizenNamesText.xml</Item>
+					<Item>text/en_us/CivilizationText.xml</Item>
+					<Item>text/en_us/UnitText.xml</Item>
+				</UpdateText>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="age-antiquity-persist-saxon" scope="game" criteria="antiquity-age-persist">
+
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/constructibles.xml</Item>
+					<Item>data/constructibles-gameeffects.xml</Item>
+				</UpdateDatabase>
+				<UpdateText>
+					<Item>text/en_us/CityNamesText.xml</Item>
+					<Item>text/en_us/ConstructibleText.xml</Item>
+				</UpdateText>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="rogue-civ-main-saxon-england" scope="game" criteria="england-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/unlocks-england.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="rogue-civ-main-saxon-great-britain" scope="game" criteria="great-britain-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/unlocks-great-britain.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		
+		<ActionGroup id="rogues-civ-saxon-age-antiquity-ada-current" scope="game" criteria="antiquity-age-ada">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/civilizations-antiquity-ada.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="rogue-civ-saxon-shell" scope="shell" criteria="always">
+			<Actions>
+				<ImportFiles>
+                    <Item>assets/icon/saxon.png</Item>
+                    <Item>assets/icon/sacred_grove.png</Item>
+                    <Item>assets/icon/moot_hall.png</Item>
+                    <Item>assets/icon/cult_saxon.png</Item>
+                    <Item>assets/icon/civ_sym_saxon</Item>
+                </ImportFiles>
+				<UpdateIcons>
+					<Item>icons/icons.xml</Item>
+				</UpdateIcons>
+				<UpdateDatabase>
+					<Item>config/config.xml</Item>
+					<Item>config/config-england.xml</Item>
+					<Item>config/config-greatbritain.xml</Item>
+					<Item>config/config-ada-lovelace.xml</Item>
+				</UpdateDatabase>
+				<UpdateText>
+					<Item>text/en_us/CultureText.xml</Item>
+					<Item>text/en_us/CivilopediaText.xml</Item>			<!-- will return to this -->
+					<Item>text/en_us/LoadingText.xml</Item>
+					<Item>text/en_us/NamedPlacesText.xml</Item>
+					<Item>text/en_us/UnlockText.xml</Item>				<!-- will return to this -->
+					<Item>text/en_us/CivilizationLegacyText.xml</Item>
+					<Item>text/en_us/AttributesText.xml</Item>
+					<Item>text/en_us/CityNamesText.xml</Item>
+					<Item>text/en_us/ConstructibleText.xml</Item>
+					<Item>text/en_us/CitizenNamesText.xml</Item>
+					<Item>text/en_us/CivilizationText.xml</Item>
+					<Item>text/en_us/UnitText.xml</Item>
+				</UpdateText>
+			</Actions>
+		</ActionGroup>
+	</ActionGroups>
+</Mod>

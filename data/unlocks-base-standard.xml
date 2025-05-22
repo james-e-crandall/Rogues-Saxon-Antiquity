@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Kinds>
+		<InsertOrIgnore Kind="KIND_UNLOCK"/>
+	</Kinds>
+	<Types>
+		<InsertOrIgnore Type="UNLOCK_CIVILIZATION_SAXON" Kind="KIND_UNLOCK"/>
+	</Types>
+	<Unlocks>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_SAXON"/>
+	</Unlocks>
+	<UnlockRewards>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_SAXON" Name="LOC_CIVILIZATION_SAXON_NAME" Description="LOC_UNLOCK_ANTIQUITY_CIV_DESCRIPTION" Icon="CIVILIZATION_SAXON" CivUnlock="true"/>
+	</UnlockRewards>
+	<RequirementSets>
+		<Row RequirementSetId="REQSET_CIVILIZATION_IS_SAXON" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+	</RequirementSets>
+	<Requirements>
+		<Row RequirementId="REQ_CIVILIZATION_IS_SAXON" RequirementType="REQUIREMENT_PLAYER_CIVILIZATION_TYPE_MATCHES"/>
+	</Requirements>
+	<RequirementArguments>
+		<Row RequirementId="REQ_CIVILIZATION_IS_SAXON" Name="CivilizationType" Value="CIVILIZATION_SAXON"/>
+	</RequirementArguments>
+	<RequirementSetRequirements>
+		<Row RequirementSetId="REQSET_CIVILIZATION_IS_SAXON" RequirementId="REQ_CIVILIZATION_IS_SAXON"/>
+	</RequirementSetRequirements>
+	<UnlockRequirements>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_NORMAN" RequirementSetId="REQSET_CIVILIZATION_IS_SAXON" Description="LOC_UNLOCK_PLAY_AS_SAXON_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_SAXON_TOOLTIP"/>
+
+	</UnlockRequirements>
+
+	<UnlockConfigurationValues>
+		<!-- <InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_SUMER" ConfigurationValue="CIVILIZATION_SUMER"/> -->
+	</UnlockConfigurationValues>
+</Database>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_UNLOCK_PLAY_AS_ADA_LOVELACE_SAXON_TOOLTIP">
+			<Text>The [B]Saxons[/B] were early inhabitants of Britain.</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_PLAY_AS_ISABELLA_SAXON_TOOLTIP">
+			<Text>[B]Isabella[/B] is a strategic complement to the [B]Saxons[/B].</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_PLAY_AS_CHARLEMAGNE_SAXON_TOOLTIP">
+			<Text>[B]Charlemagne[/B] is a strategic complement to the [B]Saxons[/B].</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_PLAY_AS_SAXON_DESCRIPTION">
+			<Text>Play as the [B]Saxons[/B].</Text>
+		</Row>
+	</EnglishText>
+</Database>

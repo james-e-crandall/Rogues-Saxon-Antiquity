@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<Row Type="UNIT_CEORL" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_CEORL_2" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_CEORL_3" Kind="KIND_UNIT"/>
+
+		<Row Type="ABILITY_CEORL" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_VEGETATED_STEALTH_ESE" Kind="KIND_ABILITY"/>
+	</Types>
+	<Units>
+		<Row UnitType="UNIT_CEORL" Name="LOC_UNIT_CEORL_NAME" Description="LOC_UNIT_CEORL_DESCRIPTION" Tier="1" BaseSightRange="2" BaseMoves="2" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="true" TraitType="TRAIT_SAXON"/>
+		<Row UnitType="UNIT_CEORL_2" Name="LOC_UNIT_CEORL_NAME" Description="LOC_UNIT_CEORL_DESCRIPTION" Tier="2" BaseSightRange="2" BaseMoves="2" Maintenance="1" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="true" TraitType="TRAIT_SAXON"/>	
+		<Row UnitType="UNIT_CEORL_3" Name="LOC_UNIT_CEORL_NAME" Description="LOC_UNIT_CEORL_DESCRIPTION" Tier="3" BaseSightRange="2" BaseMoves="2" Maintenance="2" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="true" TraitType="TRAIT_SAXON"/>
+	</Units>
+	<Unit_Stats>
+		<Row UnitType="UNIT_CEORL" Combat="14"/>
+		<Row UnitType="UNIT_CEORL_2" Combat="19"/>
+		<Row UnitType="UNIT_CEORL_3" Combat="24"/>
+	</Unit_Stats>
+	<Unit_Costs>
+		<Row UnitType="UNIT_CEORL" YieldType="YIELD_PRODUCTION" Cost="25"/>
+		<Row UnitType="UNIT_CEORL_2" YieldType="YIELD_PRODUCTION" Cost="50"/>
+		<Row UnitType="UNIT_CEORL_3" YieldType="YIELD_PRODUCTION" Cost="70"/>
+	</Unit_Costs>
+	
+	<UnitUpgrades>
+		<Row Unit="UNIT_CEORL" UpgradeUnit="UNIT_CEORL_2"/>
+		<Row Unit="UNIT_CEORL_2" UpgradeUnit="UNIT_CEORL_3"/>
+	</UnitUpgrades>
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_CEORL" ReplacesUnitType="UNIT_WARRIOR"/>
+		<Row CivUniqueUnitType="UNIT_CEORL_2" ReplacesUnitType="UNIT_SPEARMAN"/>
+		<Row CivUniqueUnitType="UNIT_CEORL_3" ReplacesUnitType="UNIT_PHALANX"/>
+	</UnitReplaces>
+	<Tags>
+		<Row Tag="UNIT_CLASS_CEORL" Category="UNIT_CLASS"/>
+	</Tags>
+	<TypeTags>
+		<Row Type="UNIT_CEORL" Tag="UNIT_CLASS_CEORL"/>
+		<Row Type="UNIT_CEORL" Tag="UNIT_CLASS_COMBAT"/>
+		<Row Type="UNIT_CEORL" Tag="UNIT_CLASS_MELEE"/>
+		<Row Type="UNIT_CEORL" Tag="UNIT_CLASS_INFANTRY"/>
+		<Row Type="UNIT_CEORL_2" Tag="UNIT_CLASS_CEORL"/>
+		<Row Type="UNIT_CEORL_2" Tag="UNIT_CLASS_COMBAT"/>
+		<Row Type="UNIT_CEORL_2" Tag="UNIT_CLASS_MELEE"/>
+		<Row Type="UNIT_CEORL_2" Tag="UNIT_CLASS_INFANTRY"/>
+		<Row Type="UNIT_CEORL_3" Tag="UNIT_CLASS_CEORL"/>
+		<Row Type="UNIT_CEORL_3" Tag="UNIT_CLASS_COMBAT"/>
+		<Row Type="UNIT_CEORL_3" Tag="UNIT_CLASS_MELEE"/>
+		<Row Type="UNIT_CEORL_3" Tag="UNIT_CLASS_INFANTRY"/>
+		<Row Type="UNIT_CEORL_3" Tag="UNIT_CLASS_ELITE_INFANTRY"/>
+	</TypeTags>
+	<UnitClass_Abilities>
+		<Row UnitAbilityType="ABILITY_CEORL" UnitClassType="UNIT_CLASS_CEORL"/>
+	</UnitClass_Abilities>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_CEORL" Name="LOC_ABILITY_CEORL_IGNORE_VEGETATION_NAME" Description="LOC_ABILITY_CEORL_IGNORE_VEGETATION_DESCRIPTION"/>
+		<Row Inactive="true" UnitAbilityType="ABILITY_VEGETATED_STEALTH_ESE" Name="LOC_ABILITY_VEGETATED_STEALTH_ESE_NAME" Description="LOC_ABILITY_VEGETATED_STEALTH_ESE_DESCRIPTION"/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<Row UnitAbilityType="ABILITY_CEORL" ModifierId="CEORL_MOD_IGNORE_VEGETATION"/>
+		<Row UnitAbilityType="ABILITY_VEGETATED_STEALTH_ESE" ModifierId="VEGETATION_STEALTH_ESE_MOD_ADJUST_UNIT_HIDDEN_VISIBILITY"/>
+	</UnitAbilityModifiers>
+	<Unit_Advisories>
+		<Row UnitType="UNIT_CEORL" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
+		<Row UnitType="UNIT_CEORL_2" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
+		<Row UnitType="UNIT_CEORL_3" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
+	</Unit_Advisories>
+</Database>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!--SAXON-->
+		<Row Tag="LOC_CITY_NAME_SAXON1">
+			<Text>Lundenburh</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SAXON2">
+			<Text>Eoforwīc</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SAXON3">
+			<Text>Hamtūn</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SAXON4">
+			<Text>Cantwareburh</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SAXON5">
+			<Text>Winteceaster</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SAXON6">
+			<Text>Oxenaforda</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SAXON7">
+			<Text>Scireburnan</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SAXON8">
+			<Text>Hereford</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SAXON9">
+			<Text>Wigorna</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SAXON10">
+			<Text>Glaestingabyrig</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SAXON11">
+			<Text>Bebbanburh</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SAXON12">
+			<Text>Dunholm</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SAXON13">
+			<Text>Snotingaham</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SAXON14">
+			<Text>Laewe</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SAXON15">
+			<Text>Defenascir</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SAXON16">
+			<Text>Ledecestre</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SAXON17">
+			<Text>Hrofeceaster</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SAXON18">
+			<Text>Eadesbyrig</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SAXON19">
+			<Text>Gippeswic</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SAXON20">
+			<Text>Norðhymbraburh</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SAXON21">
+			<Text>Lindisfarne</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SAXON22">
+			<Text>Medeshamstede</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SAXON23">
+			<Text>Aebbesburh</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SAXON24">
+			<Text>Streoneshalh</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SAXON25">
+			<Text>Taefwic</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SAXON26">
+			<Text>Haestingaceaster</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SAXON27">
+			<Text>Aescengēat</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SAXON28">
+			<Text>Cippenhamm</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SAXON29">
+			<Text>Dorceceaster</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SAXON30">
+			<Text>Hwitbyrig</Text>
+		</Row>
+	</EnglishText>
+</Database>

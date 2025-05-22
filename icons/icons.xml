@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Database>
+	<IconDefinitions>
+		<Row>
+			<ID>ICON_CIVILIZATION_SAXON</ID>
+			<Path>fs://game/rogues-civ-saxon/assets/icon/saxon.png</Path>
+		</Row>
+		<Row>
+			<ID>CIVILIZATION_SAXON</ID>
+			<Path>fs://game/rogues-civ-saxon/assets/icon/saxon.png</Path>
+		</Row>
+		<Row>
+			<ID>CIVILIZATION_SAXON</ID>
+			<Context>BACKGROUND</Context>
+			<Path>fs://game/lsbg_aksum_1080</Path>
+			<IconSize>1080</IconSize>
+		</Row>
+		<Row>
+			<ID>CIVILIZATION_SAXON</ID>
+			<Context>BACKGROUND</Context>
+			<Path>fs://game/lsbg_aksum_720</Path>
+			<IconSize>720</IconSize>
+		</Row>
+		<Row>
+			<ID>UNIT_CEORL</ID>
+			<Path>blp:unitflag_warrior</Path>
+		</Row>
+		<Row>
+			<ID>UNIT_CEORL_2</ID>
+			<Path>blp:unitflag_spearman</Path>
+		</Row>
+		<Row>
+			<ID>UNIT_CEORL_3</ID>
+			<Path>blp:unitflag_phalanx</Path>
+		</Row>
+		
+		<Row>
+			<ID>IMPROVEMENT_SACRED_GROVE</ID>
+			<Path>fs://game/rogues-civ-saxon/assets/icon/sacred_grove.png</Path>
+		</Row>
+		<Row>
+			<ID>BUILDING_MOOT_HALL</ID>
+			<Path>fs://game/rogues-civ-saxon/assets/icon/moot_hall.png</Path>
+		</Row>
+		
+	</IconDefinitions>
+	
+	<IconAliases>
+	</IconAliases>
+</Database>
