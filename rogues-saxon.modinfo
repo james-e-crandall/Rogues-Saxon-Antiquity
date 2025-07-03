@@ -50,6 +50,15 @@
 		</Criteria>
 	</ActionCriteria>
 	<ActionGroups>
+		<!-- Optional compatability -->
+		<ActionGroup id="rogue-civ-saxon-shell" scope="shell" criteria="england-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>config/config-england.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<!-- Standard compatability -->
 		<ActionGroup id="rogues-civ-saxon" scope="game" criteria="always">
 			<Actions>
 				<ImportFiles>
@@ -155,7 +164,6 @@
 				</UpdateIcons>
 				<UpdateDatabase>
 					<Item>config/config.xml</Item>
-					<Item>config/config-england.xml</Item>
 					<Item>config/config-greatbritain.xml</Item>
 					<Item>config/config-ada-lovelace.xml</Item>
 				</UpdateDatabase>
