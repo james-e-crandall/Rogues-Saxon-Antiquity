@@ -10,7 +10,7 @@
 		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_SAXON"/>
 	</Unlocks>
 	<UnlockRewards>
-		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_SAXON" Name="LOC_CIVILIZATION_SAXON_NAME" Description="LOC_UNLOCK_ANTIQUITY_CIV_DESCRIPTION" Icon="CIVILIZATION_SAXON" CivUnlock="true"/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_SAXON" Name="LOC_CIVILIZATION_SAXON_NAME" Description="LOC_UNLOCK_ANTIQUITY_CIV_DESCRIPTION" Icon="CIVILIZATION_SAXON" UnlockRewardType="CIVILIZATION_SAXON" UnlockRewardKind="KIND_CIVILIZATION"/>
 	</UnlockRewards>
 	<RequirementSets>
 		<Row RequirementSetId="REQSET_CIVILIZATION_IS_SAXON" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
