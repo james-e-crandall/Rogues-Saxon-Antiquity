@@ -48,6 +48,13 @@
 		<Criteria id="always">
 			<AlwaysMet></AlwaysMet>
 		</Criteria>
+		<!-- Optional compatability -->
+        <Criteria all="true" id="ged-ynamp-enable">
+            <ModInUse>ged-ynamp</ModInUse>
+        </Criteria>
+        <Criteria all="true" id="izica-unit-portrait-visual-remaps-enable">
+            <ModInUse>izica-unit-portrait-visual-remaps</ModInUse>
+        </Criteria>
 	</ActionCriteria>
 	<ActionGroups>
 		<!-- Optional compatability -->
@@ -58,15 +65,33 @@
 				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
+		<ActionGroup id="base-game-main-ged-ynamp" scope="game" criteria="ged-ynamp-enable">
+			<!-- ynamp compatability -->
+			<Actions>
+                <UpdateDatabase>
+					<Item>ynamp/data/greatest-earth.xml</Item>
+                </UpdateDatabase>
+            </Actions>
+		</ActionGroup>
+		<ActionGroup id="izica-unit-portrait-visual-remaps" scope="game" criteria="izica-unit-portrait-visual-remaps-enable">
+			<Actions>
+				<UIScripts>
+					<Item>ui/game.js</Item>
+				</UIScripts>
+			</Actions>
+		</ActionGroup>
 		<!-- Standard compatability -->
 		<ActionGroup id="rogues-civ-saxon" scope="game" criteria="always">
 			<Actions>
 				<ImportFiles>
-                    <Item>assets/icon/saxon.png</Item>
-                    <Item>assets/icon/sacred_grove.png</Item>
-                    <Item>assets/icon/moot_hall.png</Item>
-                    <Item>assets/icon/cult_saxon.png</Item>
-                    <Item>assets/icon/civ_sym_saxon</Item>
+					<Item>assets/icon/civ_sym_saxon</Item>
+                    <Item>assets/icon/civ_sym_saxon.png</Item>
+					<Item>assets/icon/cult_saxon.png</Item>
+					<Item>assets/icon/unitflag_ceorl.png</Item>
+                    <Item>assets/icon/impicon_sacred_grove.png</Item>
+                    <Item>assets/icon/buildicon_moot_hall.png</Item>
+                    <Item>assets/icon/lsbg_saxon_1080.png</Item>
+                    <Item>assets/icon/lsbg_saxon_720.png</Item>
                 </ImportFiles>
 				<UpdateIcons>
 					<Item>icons/icons.xml</Item>
@@ -95,9 +120,7 @@
 			<Actions>
 				<UpdateDatabase>
 					<Item>data/unlocks-antiquity.xml</Item>
-					
 					<Item>data/citizen-names.xml</Item>
-
 					<Item>data/civilizations-antiquity.xml</Item>
 					<Item>data/civilizations-gameeffects.xml</Item>
 					<Item>data/constructibles-no-persist.xml</Item>
@@ -153,11 +176,14 @@
 		<ActionGroup id="rogue-civ-saxon-shell" scope="shell" criteria="always">
 			<Actions>
 				<ImportFiles>
-                    <Item>assets/icon/saxon.png</Item>
-                    <Item>assets/icon/sacred_grove.png</Item>
-                    <Item>assets/icon/moot_hall.png</Item>
-                    <Item>assets/icon/cult_saxon.png</Item>
-                    <Item>assets/icon/civ_sym_saxon</Item>
+					<Item>assets/icon/civ_sym_saxon</Item>
+                    <Item>assets/icon/civ_sym_saxon.png</Item>
+					<Item>assets/icon/cult_saxon.png</Item>
+					<Item>assets/icon/unitflag_ceorl.png</Item>
+                    <Item>assets/icon/impicon_sacred_grove.png</Item>
+                    <Item>assets/icon/buildicon_moot_hall.png</Item>
+                    <Item>assets/icon/lsbg_saxon_1080.png</Item>
+                    <Item>assets/icon/lsbg_saxon_720.png</Item>
                 </ImportFiles>
 				<UpdateIcons>
 					<Item>icons/icons.xml</Item>

@@ -3,44 +3,44 @@
 	<IconDefinitions>
 		<Row>
 			<ID>ICON_CIVILIZATION_SAXON</ID>
-			<Path>fs://game/rogues-civ-saxon/assets/icon/saxon.png</Path>
+			<Path>fs://game/rogues-civ-saxon/assets/icon/civ_sym_saxon.png</Path>
 		</Row>
 		<Row>
 			<ID>CIVILIZATION_SAXON</ID>
-			<Path>fs://game/rogues-civ-saxon/assets/icon/saxon.png</Path>
+			<Path>fs://game/rogues-civ-saxon/assets/icon/civ_sym_saxon.png</Path>
 		</Row>
 		<Row>
 			<ID>CIVILIZATION_SAXON</ID>
 			<Context>BACKGROUND</Context>
-			<Path>fs://game/lsbg_aksum_1080</Path>
+			<Path>fs://game/rogues-civ-saxon/assets/icon/lsbg_saxon_1080.png</Path>
 			<IconSize>1080</IconSize>
 		</Row>
 		<Row>
 			<ID>CIVILIZATION_SAXON</ID>
 			<Context>BACKGROUND</Context>
-			<Path>fs://game/lsbg_aksum_720</Path>
+			<Path>fs://game/rogues-civ-saxon/assets/icon/lsbg_saxon_720.png</Path>
 			<IconSize>720</IconSize>
 		</Row>
 		<Row>
 			<ID>UNIT_CEORL</ID>
-			<Path>blp:unitflag_warrior</Path>
+			<Path>fs://game/rogues-civ-saxon/assets/icon/unitflag_ceorl.png</Path>
 		</Row>
 		<Row>
 			<ID>UNIT_CEORL_2</ID>
-			<Path>blp:unitflag_spearman</Path>
+			<Path>fs://game/rogues-civ-saxon/assets/icon/unitflag_ceorl.png</Path>
 		</Row>
 		<Row>
 			<ID>UNIT_CEORL_3</ID>
-			<Path>blp:unitflag_phalanx</Path>
+			<Path>fs://game/rogues-civ-saxon/assets/icon/unitflag_ceorl.png</Path>
 		</Row>
 		
 		<Row>
 			<ID>IMPROVEMENT_SACRED_GROVE</ID>
-			<Path>fs://game/rogues-civ-saxon/assets/icon/sacred_grove.png</Path>
+			<Path>fs://game/rogues-civ-saxon/assets/icon/impicon_sacred_grove.png</Path>
 		</Row>
 		<Row>
 			<ID>BUILDING_MOOT_HALL</ID>
-			<Path>fs://game/rogues-civ-saxon/assets/icon/moot_hall.png</Path>
+			<Path>fs://game/rogues-civ-saxon/assets/icon/buildicon_moot_hall.png</Path>
 		</Row>
 		
 	</IconDefinitions>

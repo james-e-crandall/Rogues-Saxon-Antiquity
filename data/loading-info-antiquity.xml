@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
 	<LoadingInfo_Civilizations>
-		<Row CivilizationType="CIVILIZATION_SAXON" CivilizationText="LOC_LOADING_CIV_INTRO_TEXT_SAXON" Subtitle="LOC_LOADING_VO_SAXON" Audio="VO_Loading_SAXON" BackgroundImageHigh="fs://game/lsbg_aksum_1080.png" BackgroundImageLow="fs://game/lsbg_aksum_720.png" ForegroundImage="fs://game/civ_line_aksum.png"/>
+		<Row CivilizationType="CIVILIZATION_SAXON" CivilizationText="LOC_LOADING_CIV_INTRO_TEXT_SAXON" Subtitle="LOC_LOADING_VO_SAXON" Audio="VO_Loading_SAXON" BackgroundImageHigh="fs://game/rogues-civ-saxon/assets/icon/lsbg_saxon_1080.png" BackgroundImageLow="fs://game/rogues-civ-saxon/assets/icon/lsbg_saxon_720.png" ForegroundImage="fs://game/rogues-civ-saxon/assets/icon/civ_line_saxon.png"/>
 	</LoadingInfo_Civilizations>
 </Database>

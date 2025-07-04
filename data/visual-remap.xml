@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Database>
+    <VisualRemaps>
+
+        <!-- subei -->
+        <Row>
+            <ID>REMAP_UNIT_CEORL</ID>
+            <DisplayName>LOC_UNIT_CEORL_NAME</DisplayName>
+            <Kind>UNIT</Kind>
+            <From>UNIT_CEORL</From>
+            <To>UNIT_WARRIOR</To>
+        </Row>
+        <Row>
+            <ID>REMAP_UNIT_CEORL_2</ID>
+            <DisplayName>LOC_UNIT_CEORL_NAME</DisplayName>
+            <Kind>UNIT</Kind>
+            <From>UNIT_CEORL_2</From>
+            <To>UNIT_SPEARMAN</To>
+        </Row>
+        <Row>
+            <ID>REMAP_UNIT_CEORL_3</ID>
+            <DisplayName>LOC_UNIT_CEORL_NAME</DisplayName>
+            <Kind>UNIT</Kind>
+            <From>UNIT_CEORL_3</From>
+            <To>UNIT_PHALANX</To>
+        </Row>
+                
+        
+    </VisualRemaps>
+</Database>
