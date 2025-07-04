@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<Row Type="WONDER_IRMINSUL" Kind="KIND_CONSTRUCTIBLE"/>
+    </Types>
+	<!-- Wonders -->
+	<TypeQuotes>
+		<Row Type="WONDER_IRMINSUL" Quote="LOC_QUOTE_WONDER_IRMINSUL" QuoteAuthor="LOC_QUOTE_AUTHOR_WONDER_IRMINSUL" QuoteAudio="VO_Quote_Irminsul"/>
+    </TypeQuotes>
+	<Constructibles>
+		<Row ConstructibleType="WONDER_IRMINSUL" Name="LOC_WONDER_IRMINSUL_NAME" Description="LOC_WONDER_IRMINSUL_DESCRIPTION" Tooltip="LOC_WONDER_IRMINSUL_TOOLTIP" ConstructibleClass="WONDER" Cost="275" Population="0" ImmuneDamage="true" Age="AGE_ANTIQUITY" RequiresUnlock="true" />
+    </Constructibles>
+    <Wonders>
+		<Row ConstructibleType="WONDER_IRMINSUL" MaxWorldInstances="1" />    
+	</Wonders>
+	<Constructible_ValidDistricts>
+		<Row ConstructibleType="WONDER_IRMINSUL" DistrictType="DISTRICT_WONDER"  />
+    </Constructible_ValidDistricts>
+	<Constructible_ValidTerrains>
+		<Row ConstructibleType="WONDER_IRMINSUL" TerrainType="TERRAIN_FLAT"/>
+	</Constructible_ValidTerrains>
+	<Constructible_YieldChanges>
+		<Row ConstructibleType="WONDER_IRMINSUL" YieldType="YIELD_HAPPINESS" YieldChange="2"/>
+    </Constructible_YieldChanges>
+	<ConstructibleModifiers>
+		<Row ConstructibleType="WONDER_IRMINSUL" ModifierId="MOD_WONDER_IRMINSUL_WILDCARD_HAPPINESS_CULTURE"/>
+	</ConstructibleModifiers>
+    <Constructible_Advisories>
+		<Row ConstructibleType="WONDER_IRMINSUL" AdvisoryClassType="ADVISORY_CLASS_ECONOMIC"/>
+    </Constructible_Advisories>
+	<Adjacency_YieldChanges>
+		<Row ID="IrminsulWildcardHappinessCulture" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="1" AdjacentConstructible="WONDER_IRMINSUL"/>
+	</Adjacency_YieldChanges>
+	<Constructible_WildcardAdjacencies>
+		<Row YieldChangeId="IrminsulWildcardHappinessCulture" RequiresActivation="true" ConstructibleTag="HAPPINESS"/>
+	</Constructible_WildcardAdjacencies>
+</Database>

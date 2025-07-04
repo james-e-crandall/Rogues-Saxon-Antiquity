@@ -8,7 +8,7 @@
 			<Text>Recieve a second [B]Ceorl[/B] each time you create one.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_SAXON_DESCRIPTION">
-			<Text>[LIST][LI]Whenever you train a [B]Ceorl[/B], receive a free [B]Ceorl[/B].[/LIST]</Text>
+			<Text>[LIST][LI]Whenever you train a [B]Ceorl[/B], receive a free [B]Ceorl[/B].[LI][B]+30%[icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Irminsul[/B].[/LIST]</Text>
 		</Row>
 	</EnglishText>
 </Database>

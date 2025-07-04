@@ -34,35 +34,24 @@
 		<Row Type="BUILDING_MOOT_HALL" Tag="CULTURE"/>
 		<Row Type="BUILDING_MOOT_HALL" Tag="DIPLOMACY"/>
 	</TypeTags>
-
 	<Constructible_ValidDistricts>
 		<Row ConstructibleType="IMPROVEMENT_SACRED_GROVE" DistrictType="DISTRICT_RURAL"/>
 		<Row ConstructibleType="BUILDING_MOOT_HALL" DistrictType="DISTRICT_CITY_CENTER"/>
 	</Constructible_ValidDistricts>
-
 	<Constructible_YieldChanges>
 		<Row ConstructibleType="BUILDING_MOOT_HALL" YieldType="YIELD_CULTURE" YieldChange="3"/>
 		<Row ConstructibleType="BUILDING_MOOT_HALL" YieldType="YIELD_HAPPINESS" YieldChange="3"/>
 	</Constructible_YieldChanges>
-	
 	<Constructible_Adjacencies>
 		<Row ConstructibleType="BUILDING_MOOT_HALL" YieldChangeId="MootHallDiplomacy" RequiresActivation="true"/>
 		<Row ConstructibleType="IMPROVEMENT_SACRED_GROVE" YieldChangeId="SacredGroveCult" RequiresActivation="true"/>
 	</Constructible_Adjacencies>
-	
 	<Adjacency_YieldChanges>
 		<Row ID="MootHallDiplomacy" YieldType="YIELD_DIPLOMACY" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentDistrict="DISTRICT_URBAN"/>
 		<Row ID="SacredGroveCult" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="2" ProjectMaxYield="true" AdjacentFeatureClass="FEATURE_CLASS_VEGETATED"/>
 	</Adjacency_YieldChanges>
-
 	<Constructible_ValidFeatures>
-		<!-- <Row ConstructibleType="IMPROVEMENT_SACRED_GROVE" FeatureType="FEATURE_FOREST"/> -->
-		<!-- <Row ConstructibleType="IMPROVEMENT_SACRED_GROVE" FeatureType="FEATURE_SAGEBRUSH_STEPPE"/> -->
-		<!-- <Row ConstructibleType="IMPROVEMENT_SACRED_GROVE" FeatureType="FEATURE_RAINFOREST"/> -->
-		<!-- <Row ConstructibleType="IMPROVEMENT_SACRED_GROVE" FeatureType="FEATURE_SAVANNA_WOODLAND"/> -->
-		<!-- <Row ConstructibleType="IMPROVEMENT_SACRED_GROVE" FeatureType="FEATURE_TAIGA"/> -->
 	</Constructible_ValidFeatures>
-	
 	<Constructible_ValidTerrains>
 		<Row ConstructibleType="IMPROVEMENT_SACRED_GROVE" TerrainType="TERRAIN_FLAT"/>
 	</Constructible_ValidTerrains>

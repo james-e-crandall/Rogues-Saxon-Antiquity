@@ -92,6 +92,7 @@
                     <Item>assets/icon/buildicon_moot_hall.png</Item>
                     <Item>assets/icon/lsbg_saxon_1080.png</Item>
                     <Item>assets/icon/lsbg_saxon_720.png</Item>
+					<Item>assets/icon/wondericon_temple_of_irminsul.png</Item>
                 </ImportFiles>
 				<UpdateIcons>
 					<Item>icons/icons.xml</Item>
@@ -104,6 +105,8 @@
 					<Item>data/traditions-gameeffects.xml</Item>						
 					<Item>data/traditions.xml</Item>								
 					<Item>data/unlocks-base-standard.xml</Item>
+					<Item>data/wonders-gameeffects.xml</Item>	
+					<Item>data/wonders.xml</Item>		
 				</UpdateDatabase>
 				<UpdateText>
 					<Item>text/en_us/CultureText.xml</Item>
@@ -113,6 +116,7 @@
 					<Item>text/en_us/UnlockText.xml</Item>				<!-- will return to this -->
 					<Item>text/en_us/CivilizationLegacyText.xml</Item>
 					<Item>text/en_us/AttributesText.xml</Item>
+					<Item>text/en_us/WonderText.xml</Item>
 				</UpdateText>
 			</Actions>
 		</ActionGroup>
@@ -130,6 +134,7 @@
 					<Item>data/units-gameeffects.xml</Item>
 					<Item>data/religion.xml</Item>
 					<Item>data/religion-gameeffects.xml</Item>
+					<Item>data/progression-trees-culture-common.xml</Item>
 				</UpdateDatabase>
 				<UpdateText>
 					<Item>text/en_us/CitizenNamesText.xml</Item>
@@ -184,6 +189,7 @@
                     <Item>assets/icon/buildicon_moot_hall.png</Item>
                     <Item>assets/icon/lsbg_saxon_1080.png</Item>
                     <Item>assets/icon/lsbg_saxon_720.png</Item>
+					<Item>assets/icon/wondericon_temple_of_irminsul.png</Item>
                 </ImportFiles>
 				<UpdateIcons>
 					<Item>icons/icons.xml</Item>
@@ -206,6 +212,7 @@
 					<Item>text/en_us/CitizenNamesText.xml</Item>
 					<Item>text/en_us/CivilizationText.xml</Item>
 					<Item>text/en_us/UnitText.xml</Item>
+					<Item>text/en_us/WonderText.xml</Item>
 				</UpdateText>
 			</Actions>
 		</ActionGroup>

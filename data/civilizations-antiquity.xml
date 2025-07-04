@@ -10,12 +10,15 @@
 		<!-- Full Civs -->
 		<Row CivilizationType="CIVILIZATION_SAXON" Name="LOC_CIVILIZATION_SAXON_NAME" FullName="LOC_CIVILIZATION_SAXON_FULLNAME" Description="LOC_CIVILIZATION_SAXON_DESCRIPTION" Adjective="LOC_CIVILIZATION_SAXON_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" UniqueCultureProgressionTree="TREE_CIVICS_AQ_SAXON" CapitalName="LOC_CITY_NAME_SAXON1" RandomCityNameDepth="10"/>
 	</Civilizations>
+	<CivilizationFavoredWonders>
+		<Row CivilizationType="CIVILIZATION_SAXON" FavoredWonderType="WONDER_IRMINSUL" FavoredWonderName="LOC_WONDER_IRMINSUL_NAME"/>
+	</CivilizationFavoredWonders>
 	<Traits>
 		<!--Civ Traits-->
 		<Row TraitType="TRAIT_SAXON_ABILITY" Name="LOC_TRAIT_SAXON_ABILITY_NAME" Description="LOC_TRAIT_SAXON_ABILITY_DESCRIPTION" InternalOnly="true"/>
 	</Traits>
 	<TraitModifiers>
-		<Row TraitType="TRAIT_SAXON_ABILITY" ModifierId="MOD_REVEAL_CIV_CULTURE_TREE_SAXON"/>
+		<Row TraitType="TRAIT_SAXON_ABILITY" ModifierId="MOD_CIV_WONDER_PRODUCTION_SAXON"/>
 		<Row TraitType="TRAIT_SAXON_ABILITY" ModifierId="MOD_CIV_DOUBLE_CEORLS"/>
 	</TraitModifiers>
 	<CivilizationTraits>

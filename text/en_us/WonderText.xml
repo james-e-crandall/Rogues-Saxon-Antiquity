@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_WONDER_IRMINSUL_NAME">
+			<Text>Irminsul</Text>
+		</Row>
+		<Row Tag="LOC_WONDER_IRMINSUL_DESCRIPTION">
+			<Text>{LOC_WONDER_IRMINSUL_TOOLTIP}</Text>
+		</Row>
+		<Row Tag="LOC_WONDER_IRMINSUL_TOOLTIP">
+			<Text>Happiness buildings have a cultural adjacency with the Irminsul.</Text>
+		</Row>
+		<Row Tag="LOC_QUOTE_WONDER_IRMINSUL">
+			<Text>When morning was come they set up an eagle at the eastern gate, and erecting an altar of victory they celebrated appropriate rites with all due solemnity, according to their ancestral superstition:</Text>
+		</Row>
+		<Row Tag="LOC_QUOTE_AUTHOR_WONDER_IRMINSUL">
+			<Text>Widukind of Corvey</Text>
+		</Row>
+
+    </EnglishText>
+</Database>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<AiComponents>
+	</AiComponents>
+	<AiDefinitions>
+	</AiDefinitions>
+	<OpTeamRequirements>
+	</OpTeamRequirements>
+	<PseudoYields>
+	</PseudoYields>
+	<AiListTypes>
+		<!-- Saxon -->
+		<Row ListType="Saxon Unit Biases"/>
+		<Row ListType="Saxon Government Bias"/>
+		<Row ListType="Saxon Constructibles Biases" />
+		<Row ListType="Saxon Budget Biases" />
+		<Row ListType="Saxon PseudoYield Biases" />
+		<Row ListType="Saxon Tag Biases"/>
+	</AiListTypes>
+	<AiLists>
+		<!-- Saxon -->
+		<Row ListType="Saxon Unit Biases" LeaderType="TRAIT_SAXON" System="UnitBiases"/>
+		<Row ListType="Saxon Government Bias" LeaderType="TRAIT_SAXON" System="GovernmentBiases"/>
+		<Row ListType="Saxon Constructibles Biases" LeaderType="TRAIT_SAXON" System="ConstructibleBiases" />	
+		<Row ListType="Saxon Budget Biases" LeaderType="TRAIT_SAXON" System="AiBudgetBiases"/>	
+		<Row ListType="Saxon PseudoYield Biases" LeaderType="TRAIT_SAXON" System="PseudoYieldBiases"/>	
+		<Row ListType="Saxon Tag Biases" LeaderType="TRAIT_SAXON" System="TagBiases"/>
+	</AiLists>
+	<AiFavoredItems>
+		<!-- Saxon -->
+		<Row ListType="Saxon Constructibles Biases" Item="IMPROVEMENT_SACRED_GROVE" Value="200" />
+		<Row ListType="Saxon Constructibles Biases" Item="BUILDING_MOOT_HALL" Value="200" />
+		<Row ListType="Saxon Constructibles Biases" Item="WONDER_IRMINSUL" Value="50"/>
+		<Row ListType="Saxon Unit Biases" Item="UNIT_CEORL" Value="50"/>
+		<Row ListType="Saxon Unit Biases" Item="UNIT_CEORL_2" Value="50"/>
+		<Row ListType="Saxon Unit Biases" Item="UNIT_CEORL_3" Value="50"/>
+	</AiFavoredItems>
+	<!-- City Strategies -->
+	<Strategies>
+	</Strategies>
+	<StrategyConditions>
+	</StrategyConditions>
+	<Strategy_Priorities>
+	</Strategy_Priorities>
+	<AiListTypes>
+	</AiListTypes>
+	<AiLists>
+	</AiLists>
+	<AiFavoredItems>
+	</AiFavoredItems>
+</Database>

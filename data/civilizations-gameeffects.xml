@@ -23,4 +23,13 @@
 	<!-- ==================================================	-->
 	<!--				Wonder Bonuses						-->
 	<!-- ==================================================	-->
+	<Modifier id="MOD_CIV_WONDER_PRODUCTION_SAXON" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_FAVORED_WONDER_PRODUCTION">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
+				<Argument name="TraitType">TRAIT_SAXON</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Percent">30</Argument>
+		<String context="Preview">LOC_MOD_CIV_WONDER_PRODUCTION_SAXON_DESCRIPTION</String>
+	</Modifier>
 </GameEffects>

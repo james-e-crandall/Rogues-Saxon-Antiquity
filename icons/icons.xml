@@ -33,7 +33,12 @@
 			<ID>UNIT_CEORL_3</ID>
 			<Path>fs://game/rogues-civ-saxon/assets/icon/unitflag_ceorl.png</Path>
 		</Row>
-		
+        <!-- wonder -->
+		<Row>
+			<ID>WONDER_IRMINSUL</ID>
+			<Path>fs://game/rogues-civ-saxon/assets/icon/wondericon_temple_of_irminsul.png</Path>
+		</Row>
+        <!-- buildings -->
 		<Row>
 			<ID>IMPROVEMENT_SACRED_GROVE</ID>
 			<Path>fs://game/rogues-civ-saxon/assets/icon/impicon_sacred_grove.png</Path>

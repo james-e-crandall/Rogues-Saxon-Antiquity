@@ -37,6 +37,7 @@
 		
 		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_SAXON_GARWUDU" TargetKind="KIND_TRADITION" TargetType="TRADITION_FYRD" UnlockDepth="1"/>
 		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_SAXON_GARWUDU" TargetKind="KIND_TRADITION" TargetType="TRADITION_BEADURAEDEN" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_SAXON_GARWUDU" TargetKind="KIND_CONSTRUCTIBLE" TargetType="WONDER_IRMINSUL" UnlockDepth="1"/>
 
 		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_SAXON_AETHLINGRAEDEN" TargetKind="KIND_TRADITION" TargetType="TRADITION_BEOHRTTALU" UnlockDepth="1"/>
 		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_SAXON_AETHLINGRAEDEN" TargetKind="KIND_MODIFIER" TargetType="MOD_AQ_CODEX" UnlockDepth="1"/>
