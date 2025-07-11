@@ -58,13 +58,6 @@
 	</ActionCriteria>
 	<ActionGroups>
 		<!-- Optional compatability -->
-		<ActionGroup id="rogue-civ-saxon-shell" scope="shell" criteria="england-current">
-			<Actions>
-				<UpdateDatabase>
-					<Item>config/config-england.xml</Item>
-				</UpdateDatabase>
-			</Actions>
-		</ActionGroup>
 		<ActionGroup id="base-game-main-ged-ynamp" scope="game" criteria="ged-ynamp-enable">
 			<!-- ynamp compatability -->
 			<Actions>
@@ -198,6 +191,7 @@
 					<Item>config/config.xml</Item>
 					<Item>config/config-greatbritain.xml</Item>
 					<Item>config/config-ada-lovelace.xml</Item>
+					<Item>config/config-england.xml</Item>
 				</UpdateDatabase>
 				<UpdateText>
 					<Item>text/en_us/CultureText.xml</Item>
